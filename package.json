@@ -1,0 +1,25 @@
+{
+  "name": "Client",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.4.0",
+    "download-git-repo": "^3.0.2",
+    "firebase": "^10.1.0",
+    "git-clone": "^0.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.4.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.4"
+  }
+}
