@@ -56,7 +56,7 @@ function App() {
   var loadedGameData = false;
   var version = "v1.0.0";
 
-  const accessToken = "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";
+  const accessToken = "***";
 
 
   async function getGameData() {
